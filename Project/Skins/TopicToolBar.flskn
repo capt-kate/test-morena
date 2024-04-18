@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">0px</Property>
+          <Property
+            Name="MarginRight">0px</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BackgroundImage">url('icon-arrow-purple.png')</Property>
+              <Property
+                Name="Width">52px</Property>
+              <Property
+                Name="Height">48px</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BoxShadowColor">#ffffff</Property>
+              <Property
+                Name="BorderTop">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">none 0px #e1e1e1</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="icon-arrow-purple.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0oZAbMTBDCQPXTvcAKSMA3xCXN0LfKZGLSEJVWYJTgRqFygJ8gtmaEhwEDC4cODDAoUJDwIKNkxau/szUI6zwCOymIGBWwiEGS/drfvDwMC4x9PFMcSjs3faS7EjAjytR/MyXv+dX9YXkMyptj/q18mzTUa3pgg46T5TC07IOZPGK7Oxn3/jdob5d7/rBT2bxrMnSe6BU4f0PKXzTG8dHud8WFvy1DiFw5xpOdN8NQu3tOUiBTFdX/QC1z5lEQhbGfIi3tc5So/hWErXRlG1w3IaHp+PFjNxPbpvPjHmnVZ0a/enSSax7A0braeq2i+zsW3pq5YwKH24pOCaSmnJ346KuSuuZG/mtuWfvWlLvlIWz+0d7usuiSoec3D1UjBzO3tj+dnPjJ7KQrG6QdaKMswMRsEmkyaVKG9kSGNxNpfwNTOOfCPYc/PKrccMmabGPz7au9yt2yWgHronlLXe5V7OB6+czbcZLHc/Cjj4jeOk6JTfeg8fe/TV3+38qzjVuvD2W9uCRAlLmaTLuzhXWHPJd1y+0Otwd+sMRmPhnCmr6j+VXty+/dmXk+p3Xh7yfvjvyG97v8DbV3Nt2jkZ9mfEyuUxt253vF7XEbFoQob4Ob6Jz7JPBOctWax/qCdCQpKzrPTxyT0P12RX/9f6z8Iv+/jvv34J/gLGHXvcesoqd4uwNp/1sn52rp7P/nJN/K0v2wt3Tzfqm7/u+LEXtwyO7Ys6om6/+tvNDmDkMni6+rmsc0poAgCsjE5UZQIAAA==</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="NextTopic" />
+  <Strings />
+</CatapultSkin>
